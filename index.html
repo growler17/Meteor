@@ -55,7 +55,13 @@
             <h1 class="cover-heading">Find</h1>
             <p class="lead"></p>
             <div class="col-xs-6 col-centered">
-              <input class="form-control" id="srch" type="search">
+              <!<input class="form-control" id="srch" type="search">
+              <input id="search" name="search" placeholder="Start typing here" type="text" data-list=".list">
+<ul class="list">
+  <li>item 1</li>
+  <li>...</li>
+  <li><a href="#">item 2</a></li>
+</ul>
             </div>
           </div>
 
@@ -70,14 +76,18 @@
       </div>
 
     </div>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HideSeek -->
+    <script type="text/javascript" src="jquery.hideseek.min.js"></script>
+    <script src="dist/js/hide-items.js"></script>
+    <script src="dist/js/initializers.js"></script>
   </body>
 </html>
